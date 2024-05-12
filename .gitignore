@@ -1,0 +1,20 @@
+# Ignore Next.js build output
+.next/
+out/
+node_modules/
+
+# Environment variables
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+
+# Other generated files
+*.pnp.js
+.pnp.js
+yarn.lock
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
