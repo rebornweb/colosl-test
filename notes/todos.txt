@@ -1,0 +1,15 @@
+
+To dos and Done:
+- Login page doesnt have theme or layout correct but is correct when logging off -'use client', route to login page on home - Done
+- Console errors when on login page
+- Contacts/State re-populate on render that have been removed already, need to store current contacts. Done - Add localstorage feature with useMemo - Done
+    + So it doesnt have to load/re-render again and again it will only render again if local items change
+- On initial contact load names are Random Contact not generated randomly - Done
+    + randomContacts generate math random contacts not by static Array.
+- Name Badge should be First letter of first name and Last letter of last name - Done 
+    + In Avatar comp the sliced name takes the firstletter of both names and capitalizes them.
+- Prevent end user from visiting /contacts untill login has been set.
+    + Added middleware to prevent /contacts from being visited untill login has been set
+- Implement Cypress e2e testing for randomContacts - Done
+- Login Avatar badge needs the Capital letters - Done  
+    + First two letters of email using slice
